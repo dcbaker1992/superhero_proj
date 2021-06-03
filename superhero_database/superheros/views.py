@@ -11,3 +11,5 @@ def index(request):
         'all_superheros': all_superheros
     }
     return render(request, 'superheros/index.html', context)
+
+def detail(request, superhero_id):
